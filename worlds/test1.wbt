@@ -1,0 +1,419 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9999888352518702 -0.0019212917225247736 0.00431717612856011 1.4992350408659558
+  position -0.19540063677501407 13.848655210573277 1.1461339788436218
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF ARENA RectangleArena {
+  floorSize 8 6
+  floorTileSize 0.4 0.4
+  wallHeight 0.2
+}
+DEF GALL Group {
+  children [
+    WoodenBox {
+      translation 1.9 0.1 2.7
+      name "wooden box(13)"
+      size 0.2 0.2 0.2
+    }
+    DEF WALL4 Solid {
+      translation -3.4 0.1 2.9
+      children [
+        DEF G4 Group {
+          children [
+            Transform {
+              translation -0.5 0 -0.5
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 1.2 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid4(2)"
+      boundingObject USE G4
+      physics Physics {
+      }
+    }
+    WoodenBox {
+      translation -3.1 0.1 2.1
+      name "wooden box(12)"
+      size 0.6 0.2 0.6
+    }
+    DEF WALL4 Solid {
+      translation 3.2 0.1 2.9
+      children [
+        DEF G4 Group {
+          children [
+            Transform {
+              translation 0.7 0 -0.3
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 1.2 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid4(1)"
+      boundingObject USE G4
+      physics Physics {
+      }
+    }
+    WoodenBox {
+      translation 2.7 0.1 1.7
+      name "wooden box(11)"
+      size 0.2 0.2 0.6
+    }
+    WoodenBox {
+      translation 2.7 0.1 -2.8
+      name "wooden box(10)"
+      size 0.2 0.2 0.4
+    }
+    DEF WALL2 Solid {
+      translation 3.4 0.1 -1.1
+      children [
+        DEF G2 Group {
+          children [
+            Transform {
+              translation -0.5 0 -0.4
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 1
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation 0.5 0 0.3
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.8 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid2(1)"
+      boundingObject USE G2
+      physics Physics {
+      }
+      locked TRUE
+    }
+    WoodenBox {
+      translation 1.1 0.1 2.3
+      name "wooden box(9)"
+      size 0.2 0.2 0.6
+    }
+    WoodenBox {
+      translation -1.7 0.1 2.8
+      name "wooden box(8)"
+      size 0.2 0.2 0.4
+    }
+    WoodenBox {
+      translation 1.3 0.1 0.8
+      name "wooden box(7)"
+      size 0.2 0.2 0.4
+    }
+    WoodenBox {
+      translation 1.2 0.1 -2.3
+      name "wooden box(6)"
+      size 0.4 0.2 0.6
+    }
+    WoodenBox {
+      translation -1.1 0.1 -2.8
+      name "wooden box(5)"
+      size 0.2 0.2 0.4
+    }
+    WoodenBox {
+      translation -3.5 0.1 -1.2
+      name "wooden box(4)"
+      size 1 0.2 0.4
+    }
+    WoodenBox {
+      translation -1.3 0.1 -0.7
+      name "wooden box(3)"
+      size 0.6 0.2 0.6
+    }
+    DEF WALL4 Solid {
+      translation -2.4 0.1 -1.9
+      children [
+        DEF G4 Group {
+          children [
+            Transform {
+              translation 0.7 0 -0.3
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 1.2 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid4"
+      boundingObject USE G4
+      physics Physics {
+      }
+    }
+    DEF WALL3 Solid {
+      translation -2 0.1 1
+      children [
+        DEF G3 Group {
+          children [
+            Transform {
+              translation -0.7 0 0.1
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.6 0.2 0.2
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation -0.3 0 0.5
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 1
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation 0.1 0 -0.6
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.8 0.2 0.4
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid3"
+      boundingObject USE G3
+      physics Physics {
+      }
+      locked TRUE
+    }
+    DEF WALL1 Solid {
+      translation 0.2 0.1 -1.1
+      children [
+        DEF G1 Group {
+          children [
+            Transform {
+              translation -0.5 0 -0.4
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 1
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation 0.1 0 0.1
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 1.6 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid1"
+      boundingObject USE G1
+      physics Physics {
+      }
+      locked TRUE
+    }
+    WoodenBox {
+      translation 0.3 0.1 1.2
+      name "wooden box(2)"
+      size 1.4 0.2 0.4
+    }
+    WoodenBox {
+      translation 0.2 0.1 -0.2
+      size 0.4 0.2 0.4
+      locked TRUE
+    }
+    DEF WALL2 Solid {
+      translation 2 0.1 -0.1
+      children [
+        DEF G2 Group {
+          children [
+            Transform {
+              translation -0.5 0 -0.4
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 1
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation 0.5 0 0.3
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Box {
+                    size 0.2 0.2 0.8
+                  }
+                  isPickable FALSE
+                }
+              ]
+            }
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.8 0.2 0.2
+              }
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "solid2"
+      boundingObject USE G2
+      physics Physics {
+      }
+      locked TRUE
+    }
+    WoodenBox {
+      translation -0.8 0.1 0
+      name "wooden box(1)"
+      size 0.4 0.2 0.8
+    }
+  ]
+}
+DEF ROBY E-puck {
+  translation -0.7 -1.73472e-18 2.72
+  controller "Fwd"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+      name "busola"
+    }
+    GPS {
+      name "global"
+    }
+  ]
+}
+DEF GOAL Solid {
+  translation 3.1 0 -2.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 1 0.5
+      }
+      geometry Box {
+        size 0.2 0.01 0.2
+      }
+    }
+  ]
+  name "goal"
+}
